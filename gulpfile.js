@@ -11,7 +11,9 @@ const sorting = require('postcss-sorting');
 // const scss = require('postcss-scss');
 const scssParser = require('postcss-scss');
 const argv = yargs(hideBin(process.argv)).argv;
-const purgecss = require('gulp-purgecss');
+// const purgecss = re
+//
+// quire('gulp-purgecss');
 const through = require('through2');
 
 
@@ -270,17 +272,17 @@ gulp.task('clean', function () {
 });
 
 // 未使用セレクタ検出
-gulp.task('check-unused-css', () => {
-  return gulp.src('assets/**/*.css')
-    .pipe(purgecss({
-      content: ['./*.html', 'assets/**/*.js', 'assets/**/*.php'],
-      // safelist: [], 必要に応じて追加
-    }))
-    .pipe(through.obj((file, enc, cb) => {
-      if (file.purgecss && file.purgecss.rejected && file.purgecss.rejected.length) {
-        console.log(`未使用セレクタ in ${file.relative}:`);
-        console.log(file.purgecss.rejected.join('\n'));
-      }
-      cb(null, file);
-    }));
-});
+// gulp.task('check-unused-css', () => {
+//   return gulp.src('assets/**/*.css')
+//     .pipe(purgecss({
+//       content: ['./*.html', 'assets/**/*.js', 'assets/**/*.php'],
+//       // safelist: [], 必要に応じて追加
+//     }))
+//     .pipe(through.obj((file, enc, cb) => {
+//       if (file.purgecss && file.purgecss.rejected && file.purgecss.rejected.length) {
+//         console.log(`未使用セレクタ in ${file.relative}:`);
+//         console.log(file.purgecss.rejected.join('\n'));
+//       }
+//       cb(null, file);
+//     }));
+// });

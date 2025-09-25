@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script>
+    (function (d) {
+      var config = {
+        kitId: 'ebu3thu',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+  <!-- swiper-css -->
+
+
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header">
+
+      <h1 class="header__logo">
+        <a href="" class="header__logo-link">
+          <img src="./assets/img/header_logo.png" alt="" class="header__logo-img"></a>
+      </h1>
+
+      <nav class="header__nav font-roman">
+        <a href="#" class="header__nav-link">ホーム</a>
+        <a href="#greeting" class="header__nav-link">ご挨拶</a>
+        <a href="#service" class="header__nav-link">サービス</a>
+        <a href="#company" class="header__nav-link">会社甲斐</a>
+        <a href="#contact" class="header__nav-link">お問い合わせ</a>
+
+      </nav>
+
+      <nav class="menu-right">
+        <ul>
+          <li><a href="#" class="header__nav-link">ホーム</a></li>
+          <li><a href="#greeting" class="header__nav-link">ご挨拶</a></li>
+          <li><a href="#service" class="header__nav-link">サービス</a></li>
+          <li><a href="#company" class="header__nav-link">会社甲斐</a></li>
+          <li><a href="#contact" class="header__nav-link">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <!-- ハンバーガーメニュー -->
+      <div id="hamburger">
+        <span></span>
+      </div>
+
+
+    </header>
+
+
+    <main>
+
+      <section class="mv">
+        <div class="scroll font-roman">
+          <span>Scroll</span>
+        </div>
+
+        <div class="section__inner">
+
+          <!-- <div class="section__title">
+            <h2>タイトルタイトル</h2>
+          </div>
+
+          <div class="section__content">
+
+
+          </div>
+
+        </div> -->
+          <div class="mv__flex-wrap">
+            <div class="mv__flex-left">
+              <div class="mv__flex-left-inner"><img src="./assets/img/mv.png" alt=""></div>
+            </div>
+            <div class="mv__flex-right">
+              <div class="intro__content">
+                <p class="intro__content-text">セントラルベースは、<br>広告制作とイベント運営を通じて<br>「伝える」「つなげる」を形にする<br>クリエイティブパートナーです。
+                </p>
+                <p class="intro__content-text"> 映像・グラフィック・ウェブサイトなど<br>多様なメディアを活用した広告制作では、<br>企業やブランドの魅力を<br>最大限に引き出す表現を追求。</p>
+                <p class="intro__content-text">さらに、自社主催のビジネス交流イベント<br class="sp">「CLIP TOKYO」では、<br>リアルな出会いと新たなビジネスのきっかけを<br class="sp">提供しています。</p>
+                <p class="intro__content-text"> 私たちは、<br>“伝えたい想い”と“出会いたい人”の間にある壁を取り払い、<br>価値あるコミュニケーションをデザインすることに<br>力を注いでいます。</p>
+                <p class="intro__content-text">広告とイベント、<br>それぞれの領域で培った経験と柔軟な発想力をかけあわせ、<br>クライアントの成長と社会の活性化に貢献することが<br>私たちのミッションです。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="intro">
+
+
+
+
+            <div class="section__content">
+
+
+            </div>
+
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <section class="greeting" id="greeting">
+        <div class="section__inner">
+
+          <div class="section__title">
+            <h2 class="section__title-head">GREETING</h2>
+            <span class="section__title-sub">ご挨拶</span>
+          </div>
+
+          <div class="section__content">
+            <div class="greeting__content-left">
+              <img src="./assets/img/profile.png" alt="" class="greeting__content-img">
+            </div>
+            <div class="greeting__content-right">
+              <div class="greeting__text-wrap">
+                <p class="greeting__text">私自身、テレビCMのプロデューサー、大手企業の宣伝部長、<br>広告制作会社の経営など、35年以上にわたり広告業界に身を置いてまいりました。</p>
+                <p class="greeting__text">これまでも、受注してきた商品やサービスの広告が、<br>
+                  最大限に効果を発揮するよう尽力してきましたが、<br>
+                  広告制作とは「制作した広告物を納品すれば終わり」ということでいいのでしょうか？<br>
+                  はたしてそれが、本当にお客様のためになる広告と言う仕事なのでしょうか？<br>メディア(媒体)だけに頼る広告でいいのでしょうか？<br>
+                  もう一度広告の原点から考えなおそうと、<br>
+                  2023年1月、株式会社セントラルベースを立ち上げました。</p>
+                <p class="greeting__text">私たちは広告制作だけでなく、自社主催のビジネス交流イベント<br>
+                  「CLIP TOKYO」を通じて、企業同士のリアルなつながりや、<br>
+                  出会いの場づくりにも力を注いでいます。<br>
+                  広告という“伝える手段”に加え、イベントという“つながる場”を組み合わせることで、お客様のビジネスがより深く、広く広がって<br>
+                  いくことを目指しています。</p>
+                <p class="greeting__text">各分野のプロフェッショナルたちと共に、お客様の社外宣伝部として、心をひとつに宣伝活動を進めてまいります。<br><br>「企業の成長を、お客様と共に喜び合える存在でありたい」それがセントラルベースの変わらぬ理念です。<br><br>今後ともご支援・ご指導のほど、何卒よろしくお願い申し上げます。</p>
+                <p class="greeting__text">株式会社セントラルベース<br>代表取締役　正村 勲一
+                </p>
+
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="service" id="service">
+        <div class="section__inner">
+
+          <div class="section__title color-white">
+            <h2 class="section__title-head">SERVICE</h2>
+            <span class="section__title-sub">サービス</span>
+          </div>
+          <div class="section__content">
+            <ul class="service__content-wrap">
+
+              <li class="service__content-item">
+                <div class="service__item-left">
+                  <img src="./assets/img/service01.png" alt="" class="service__item-img">
+                </div>
+                <div class="service__item-right">
+                  <div class="service__item-text">
+                    <h3 class="service__item-head">広告コンサルティング</h3>
+                    <p class="service__item-sub">広告戦略・広告予算計画・媒体計画</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service__content-item">
+                <div class="service__item-left">
+                  <img src="./assets/img/service02.png" alt="" class="service__item-img">
+                </div>
+                <div class="service__item-right">
+                  <div class="service__item-text">
+                    <h3 class="service__item-head">広告制作</h3>
+                    <p class="service__item-sub">テレビCMを含む映像制作、<br>グラフィック制作、WEB制作</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service__content-item">
+                <div class="service__item-left">
+                  <img src="./assets/img/service03.png" alt="" class="service__item-img">
+                </div>
+                <div class="service__item-right">
+                  <div class="service__item-text">
+                    <h3 class="service__item-head">展示会出店支援</h3>
+                    <p class="service__item-sub">企画・制作・運営</p>
+                  </div>
+                </div>
+              </li>
+
+
+              <li class="service__content-item">
+                <div class="service__item-left">
+                  <img src="./assets/img/service04.png" alt="" class="service__item-img">
+                </div>
+                <div class="service__item-right">
+                  <div class="service__item-text">
+                    <h3 class="service__item-head">イベント運営代行</h3>
+                    <p class="service__item-sub">企画・制作・運営</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service__content-item">
+                <div class="service__item-left">
+                  <img src="./assets/img/service05.png" alt="" class="service__item-img">
+                </div>
+                <div class="service__item-right">
+                  <div class="service__item-text">
+                    <h3 class="service__item-head font-size">ビジネス交流会<br>『CLIP TOKYO』運営</h3>
+                    <p class="service__item-sub">企画・制作・運営</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="company" id="company">
+        <div class="section__inner">
+
+          <div class="section__title ">
+            <h2 class="section__title-head">COMPANY INFORMATION</h2>
+            <span class="section__title-sub">会社概要</span>
+          </div>
+
+          <div class="section__content">
+            <div class="company__info">
+              <dl class="company__list">
+                <dt><span>会</span><span>社</span><span>名</span></dt>
+                <dd>株式会社セントラルベース</dd>
+
+                <dt><span>住</span><span>所</span></dt>
+                <dd>東京都港区芝５丁目３６番４号 <br class="sp">札の辻スクエア９階</dd>
+
+                <dt><span>代</span><span>表</span></dt>
+                <dd>代表取締役　正村　勲一</dd>
+
+                <dt><span>設</span><span>立</span></dt>
+                <dd>２０２３年１月６日</dd>
+
+                <dt><span>取</span><span>引</span><span>銀</span><span>行</span></dt>
+                <dd>きらぼし銀行　浜松町支店</dd>
+
+                <dt><span>メ</span><span>ー</span><span>ル</span></dt>
+                <dd>info@central-base.jp</dd>
+
+                <dt><span>電</span><span>話</span><span>番</span><span>号</span></dt>
+                <dd>070-9086-1020</dd>
+              </dl>
+            </div>
+
+
+
+            <div class="company__map">
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.294553074113!2d139.7420419757163!3d35.64511387259897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b383415a47b%3A0x844b9e9326d7f40b!2z5pyt44Gu6L6744K544Kv44Ko44Ki77yZ6ZqO77yI6Iqd5LqU5LiB55uu6KSH5ZCI5pa96Kit77yJ!5e0!3m2!1sja!2sjp!4v1758715449001!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="section__inner">
+
+          <div class="section__title ">
+            <h2 class="section__title-head">CONTACT</h2>
+            <span class="section__title-sub">お問い合わせ</span>
+          </div>
+
+          <div class="section__content">
+            <p class="contact__content-head">お問い合わせは<br class="sp">以下のフォームよりお願いいたします。</p>
+
+            <div class="contact__form-wrap">
+              <form class="contact-form">
+                <div class="form-group">
+                  <label for="name">氏名</label>
+                  <input type="text" id="name" name="name" placeholder="例：山田 太郎" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="company">会社名</label>
+                  <input type="text" id="company" name="company" placeholder="例：株式会社〇〇">
+                </div>
+
+                <div class="form-group">
+                  <label for="email">メールアドレス</label>
+                  <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">メッセージ</label>
+                  <textarea id="message" name="message" rows="5" placeholder="お問い合わせ内容を入力してください" required></textarea>
+                </div>
+
+                <button type="submit">送信</button>
+              </form>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </section>
+
+
+    </main>
+
+
+
+    <footer>
+      <div class="section__inner">
+
+        <h1 class="header__logo">
+          <a href="" class="header__logo-link">
+            <img src="./assets/img/header_logo.png" alt="" class="header__logo-img"></a>
+        </h1>
+
+        <nav class="header__nav font-roman">
+          <a href="#mv" class="header__nav-link">ホーム</a>
+          <a href="#greeting" class="header__nav-link">ご挨拶</a>
+          <a href="#service" class="header__nav-link">サービス</a>
+          <a href="#company" class="header__nav-link">会社概要</a>
+          <a href="#contact" class="header__nav-link">お問い合わせ</a>
+
+        </nav>
+
+      </div>
+      <div class="footer__copy">
+        <p>Central Base Corporation</p>
+      </div>
+
+    </footer>
+
+
+  </div>
+
+  <!-- Scripts -->
+
+  <!-- GSAP本体 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <!-- ScrollTrigger（スクロールアニメーションする場合） -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
