@@ -676,18 +676,18 @@ img {
   color: var(--color-text-brown);
   margin: 0;
   margin-top: clamp(1.75rem, 3.6458333333vw, 4.375rem);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.05em;
   color: #8b615c;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
 }
 .greeting .greeting__text:first-child {
   margin-top: 0;
 }
 .greeting .greeting__text:nth-child(3) {
-  letter-spacing: 0.018em;
   margin-top: clamp(1.25rem, 2.6041666667vw, 3.125rem);
 }
 .greeting .greeting__text:nth-child(4) {
-  letter-spacing: -0.02em;
   margin-top: clamp(1.5rem, 3.125vw, 3.75rem);
 }
 .greeting .greeting__text:last-child {

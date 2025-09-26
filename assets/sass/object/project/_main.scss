@@ -482,21 +482,22 @@ img {
     color: var(--color-text-brown);
     margin: 0;
     margin-top: rclamp(70);
-    letter-spacing: 0.02em;
+    letter-spacing: 0.05em;
     color: #8b615c;
+    font-feature-settings: "palt";
 
     &:first-child {
       margin-top: 0;
     }
 
     &:nth-child(3) {
-      letter-spacing: 0.018em;
+      // letter-spacing: 0.018em;
       margin-top: rclamp(50);
 
     }
 
     &:nth-child(4) {
-      letter-spacing: -0.02em;
+      // letter-spacing: -0.02em;
       margin-top: rclamp(60);
 
     }
