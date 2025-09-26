@@ -460,8 +460,8 @@ img {
   background-image: url("../img/mv_bg-pc.png");
   background-size: cover;
   height: clamp(87.5rem, 182.2916666667vw, 218.75rem);
-  -webkit-animation: bgZoom 30s ease-in-out infinite;
-          animation: bgZoom 30s ease-in-out infinite;
+  -webkit-animation: bgZoom 40s ease-in-out infinite;
+          animation: bgZoom 40s ease-in-out infinite;
   background-size: 100% 100%;
   background-position: center;
 }
