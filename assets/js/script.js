@@ -1,7 +1,7 @@
 gsap.matchMedia().add("(min-width: 768px)", () => {
   ScrollTrigger.create({
     trigger: ".mv__flex-left-inner", // ← 内側をpin
-    start: "top 100",
+    start: "top 125",
     endTrigger: ".intro__content",
     end: "top 100",
     pin: true,

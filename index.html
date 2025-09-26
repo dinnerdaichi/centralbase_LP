@@ -38,7 +38,7 @@
         <a href="#" class="header__nav-link">ホーム</a>
         <a href="#greeting" class="header__nav-link">ご挨拶</a>
         <a href="#service" class="header__nav-link">サービス</a>
-        <a href="#company" class="header__nav-link">会社甲斐</a>
+        <a href="#company" class="header__nav-link">会社概要</a>
         <a href="#contact" class="header__nav-link">お問い合わせ</a>
 
       </nav>
@@ -48,7 +48,7 @@
           <li><a href="#" class="header__nav-link">ホーム</a></li>
           <li><a href="#greeting" class="header__nav-link">ご挨拶</a></li>
           <li><a href="#service" class="header__nav-link">サービス</a></li>
-          <li><a href="#company" class="header__nav-link">会社甲斐</a></li>
+          <li><a href="#company" class="header__nav-link">会社概要</a></li>
           <li><a href="#contact" class="header__nav-link">お問い合わせ</a></li>
         </ul>
       </nav>
@@ -137,9 +137,8 @@
                 <p class="greeting__text">私たちは広告制作だけでなく、自社主催のビジネス交流イベント<br>
                   「CLIP TOKYO」を通じて、企業同士のリアルなつながりや、<br>
                   出会いの場づくりにも力を注いでいます。<br>
-                  広告という“伝える手段”に加え、イベントという“つながる場”を組み合わせることで、お客様のビジネスがより深く、広く広がって<br>
-                  いくことを目指しています。</p>
-                <p class="greeting__text">各分野のプロフェッショナルたちと共に、お客様の社外宣伝部として、心をひとつに宣伝活動を進めてまいります。<br><br>「企業の成長を、お客様と共に喜び合える存在でありたい」それがセントラルベースの変わらぬ理念です。<br><br>今後ともご支援・ご指導のほど、何卒よろしくお願い申し上げます。</p>
+                  広告という“伝える手段”に加え、イベントという“つながる場”を<br>組み合わせることで、お客様のビジネスがより深く、広く広がっていくことを目指しています。</p>
+                <p class="greeting__text">各分野のプロフェッショナルたちと共に、お客様の社外宣伝部として、心をひとつに宣伝活動を進めてまいります。<br><br>「企業の成長を、お客様と共に喜び合える存在でありたい」<br>それがセントラルベースの変わらぬ理念です。<br><br>今後ともご支援・ご指導のほど、何卒よろしくお願い申し上げます。</p>
                 <p class="greeting__text">株式会社セントラルベース<br>代表取締役　正村 勲一
                 </p>
 
@@ -258,11 +257,14 @@
                 <dd>きらぼし銀行　浜松町支店</dd>
 
                 <dt><span>メ</span><span>ー</span><span>ル</span></dt>
-                <dd>info@central-base.jp</dd>
+                <dd class="mail">info@central-base.jp</dd>
 
                 <dt><span>電</span><span>話</span><span>番</span><span>号</span></dt>
-                <dd>070-9086-1020</dd>
+                <dd class="tel">070-9086-1020</dd>
               </dl>
+
+              <p class="company__list-bottom">※セントラルベースは東京商工会議所の会員企業です</p>
+              <p class="company__list-bottom">※セントラルベースは適格請求書発行事業者です</p>
             </div>
 
 
@@ -293,25 +295,25 @@
               <form class="contact-form">
                 <div class="form-group">
                   <label for="name">氏名</label>
-                  <input type="text" id="name" name="name" placeholder="例：山田 太郎" required>
+                  <input type="text" id="name" name="name" placeholder="田中 太郎" required>
                 </div>
 
                 <div class="form-group">
                   <label for="company">会社名</label>
-                  <input type="text" id="company" name="company" placeholder="例：株式会社〇〇">
+                  <input type="text" id="company" name="company" placeholder="株式会社〇〇〇〇">
                 </div>
 
                 <div class="form-group">
                   <label for="email">メールアドレス</label>
-                  <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                  <input type="email" id="email" name="email" placeholder="example@abc.com" required>
                 </div>
 
                 <div class="form-group">
                   <label for="message">メッセージ</label>
-                  <textarea id="message" name="message" rows="5" placeholder="お問い合わせ内容を入力してください" required></textarea>
+                  <textarea id="message" name="message" rows="5" placeholder="お問い合わせ内容は、こちらに記載してください" required></textarea>
                 </div>
 
-                <button type="submit">送信</button>
+                <button type="submit">送信する</button>
               </form>
 
             </div>
